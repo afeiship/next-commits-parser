@@ -1,0 +1,91 @@
+82b05c46 - fix: 大背景->小背景 文字错误修复
+d5d915a1 - fix: 数据:全局干扰项-block/elements为空兼容
+731552d4 - Merge branch '774-fix' into 'dev-1.20.0'
+ce64ce1e - fix:新建合集分类显示空标签修复
+6afc9091 - fix:新建合集分类显示空标签修复
+75df6d4f - refactor: remove unused rules
+33327f2d - Merge branch 'dev-1.20.0' of git.saybot.net:ACE/kellis/kellis-ng-front into dev-1.20.0
+6afdf2e3 - fix: remove required
+291b4041 - Merge branch '773-fix-development' into 'dev-1.20.0'
+184f5116 - fix:development连接后端环境修改
+a3b2d5f1 - feat: 非课程应用配置：介绍字段增加选项：支持URL链接 (REDMINE-111240)
+d5f435e0 - Merge branch '772-fix' into 'dev-1.20.0'
+67a04a56 - fix:复合模板保存失败修复
+686b137e - Merge branch 'beta' into dev-1.20.0
+71b298b2 - Merge branch 'dev-1.20.0' of git.saybot.net:ACE/kellis/kellis-ng-front into dev-1.20.0
+87221ba1 - fix: 课程目录页面、课程应用页面，页面滑动时，操作按钮按钮顶部固定 (REDMINE-110232)
+be26b22b - Merge branch 'dev-1.20.0' into 'beta'
+f653e1af - Merge branch '771-fix' into 'dev-1.20.0'
+e14b46a6 - fix:内容库创建按钮及独立应用发布按钮样式优化
+1bdaf616 - Merge branch '770-fix' into 'dev-1.20.0'
+0c9de16f - fix:独立应用新建专辑只选择一个分类创建合集失败修复
+68d174d7 - Merge branch '769-fix' into 'dev-1.20.0'
+650e1370 - fix: 移除parse相关代码
+1d5e06e8 - 答案项无法设置样式切换修复
+d6499821 - Merge branch 'dev-1.20.0' into 'beta'
+d068e994 - Merge branch '768-fix' into 'dev-1.20.0'
+4d9d93d1 - Merge branch '767-fix' into 'dev-1.20.0'
+1b759109 - fix:课程列表页统一默认升序排列
+33d6d88c - Merge branch 'dev-1.20.0' into 'beta'
+c7d5bc87 - fix:填空题下拉选项无法显示修复
+89855b44 - Merge branch 'dev-1.20.0' of git.saybot.net:ACE/kellis/kellis-ng-front into dev-1.20.0
+7560e41a - style: udpate (REDMINE-111116)
+b95d5195 - Merge branch 'dev-1.20.0' into 'beta'
+9837801f - Merge branch '764-feat' into 'dev-1.20.0'
+fe5118e4 - feat(setting): 内容编辑页面：解析模块显示错误
+0331994e - Merge branch 'dev-1.20.0' into 'beta'
+ddfef006 - Merge branch '766-fix' into 'dev-1.20.0'
+6b8df71e - fix:课程列表页面顺序变动频繁修复
+8f7f2755 - Merge branch '765-fix' into 'dev-1.20.0'
+69e43c82 - fix:内容库选择移动位置时删除空白菜单修复
+cd7729fd - Merge branch '763-fix' into 'dev-1.20.0'
+761a992e - fix:资源模块名称显示错误修复
+c23cb55d - Merge branch '762-feat-deepeach-nx-ts' into 'dev-1.20.0'
+3257686d - feat: add nx-deep-each
+05719a39 - fix(content): 内容库默认显示“按来源” (REDMINE-111152)
+058e2773 - Merge branch 'dev-1.20.0' into beta
+9b5f3f18 - fix(style): 编辑内容页面：上传文档后页面错乱 (REDMINE-111157)
+25135ae7 - Merge branch 'dev-1.20.0' into beta
+eee44e75 - feat: 习题类模板配置默认增加“解析”模块 (REDMINE-111120)
+7a98ffca - Merge branch 'dev-1.20.0' into beta
+3b643a37 - fix(content): 修复 简单富文本无法保存/分词带代码等问题(REDMINE-110775)
+82ab0859 - Merge branch 'dev-1.20.0' into beta
+70454050 - fix(content): 知识点标签在任何状态下都可以打，不依赖应用内容的状态 (REDMINE-110620)
+71a6e390 - fix(content): 独立应用内容列表图片显示根据上传的图片等比缩放
+6a4f75a0 - Merge branch 'dev-1.20.0' into beta
+4bc79004 - fix(content): 选择题：选项内容不可以为空 (REDMINE-111040)
+00daaa77 - fix(content): 内容编辑页面：应不可以编辑他人的反馈内容 - (REDMINE-110325)
+ad1641be - refactor: modal styled + min-max height
+f18e9625 - fix: 修复:内容为空的时候，提交应该为disabled (REDMINE-110924)
+a86eb200 - Merge branch 'dev-1.20.0' into beta
+60673ce8 - feat: 习题类模板配置默认增加“解析”模块
+0c7ec184 - feat: 非课程应用配置 add large/small background
+6cd19914 - fix: selected/deselected bg
+5c3ffcaf - feat: background in setting
+6cd47906 - Merge branch 'dev-1.20.0' into beta
+cad6e8d5 - style: remove bizLog
+366f816e - feat: add lexile code
+65a66697 - style: add comments
+0d5f9806 - feat: multiple media display in frontend
+47f99bc3 - refactor: remove log/committer wrong text
+15ea46d9 - feat: image/audio/video/document add en/cnName isNameVisibible
+95200757 - feat: isNameVisible filed in element remove to element.isNameVisible
+56837796 - Merge branch 'dev-1.20.0' into beta
+536a1c58 - refacor: feedback icon change by length
+a4e66a9b - feat: feedback feature done
+bc2d17a6 - add: feedback的post创建接口
+21871763 - add: comments ui
+61dedd0d - feat: 支持设置下拉框默认文本，默认选项只能勾选一个
+c93758e8 - fix: merge conflict
+407c5b16 - feat: add nx
+8c6d8b5a - fix: remove nx
+74cf5326 - fix: nx version pack
+1fd35011 - fix: try-set-get package
+8435e73e - feat: add nx to project
+a9e5e47d - fix: text-drop-down add item error
+d14faea3 - Merge branch 'dev-1.19.4' into beta
+74fb786f - fix: simple_text can't edit
+14205642 - Merge branch 'dev-1.19.4' into beta
+7c03f88d - fix: editorState current value
+f0c7f827 - fix(bug): v1.9.3+
+7a03355d - feat: 非文本类型均支持添加多个
