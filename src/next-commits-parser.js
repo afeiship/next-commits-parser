@@ -20,8 +20,10 @@
 
   nx.commitsParser = function (inOptions) {
     var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
-    var commits = inOptions.text.split('\n');
+    var commits = options.text.split('\n');
     var loggers = [];
+
+    if (!options.text) return null;
 
     commits.forEach(function (commit) {
       nx.forEach(options.actions, function (action) {

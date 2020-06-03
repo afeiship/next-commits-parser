@@ -2,8 +2,8 @@
  * name: @alo7i/next-commits-parser
  * description: Git commits parser.
  * homepage: https://github.com/afeiship/next-commits-parser
- * version: 1.0.0
- * date: 2020-06-03T09:35:16.408Z
+ * version: 1.0.1
+ * date: 2020-06-03T09:41:51.763Z
  * license: MIT
  */
 
@@ -29,8 +29,10 @@
 
   nx.commitsParser = function (inOptions) {
     var options = nx.mix(null, DEFAULT_OPTIONS, inOptions);
-    var commits = inOptions.text.split('\n');
+    var commits = options.text.split('\n');
     var loggers = [];
+
+    if (!options.text) return null;
 
     commits.forEach(function (commit) {
       nx.forEach(options.actions, function (action) {
