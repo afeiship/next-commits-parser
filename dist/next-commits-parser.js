@@ -3,7 +3,7 @@
  * description: Git commits parser.
  * homepage: https://github.com/afeiship/next-commits-parser
  * version: 1.0.1
- * date: 2020-06-03T09:41:51.763Z
+ * date: 2020-06-03T09:43:16.930Z
  * license: MIT
  */
 
@@ -11,6 +11,7 @@
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
   var groupBy = require('@feizheng/next-group-by');
+  var stubValue = require('@atomkits/stub-value');
   var DEFAULT_OPTIONS = {
     text: '',
     actions: [

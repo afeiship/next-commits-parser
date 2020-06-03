@@ -2,6 +2,7 @@
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
   var groupBy = require('@feizheng/next-group-by');
+  var stubValue = require('@atomkits/stub-value');
   var DEFAULT_OPTIONS = {
     text: '',
     actions: [
