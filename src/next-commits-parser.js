@@ -2,7 +2,9 @@
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('@feizheng/next-js-core2');
   var groupBy = require('@feizheng/next-group-by');
+  var includesMulti = require('@feizheng/next-includes-multi');
   var stubValue = require('@atomkits/stub-value');
+
   var DEFAULT_OPTIONS = {
     text: '',
     actions: [
@@ -28,7 +30,8 @@
 
     commits.forEach(function (commit) {
       nx.forEach(options.actions, function (action) {
-        if (commit.includes(action + ':')) {
+        var target = [action + ':', action + '('];
+        if (includesMulti(commit, { target: target })) {
           loggers.push({ action: action, message: options.template(commit) })
           return nx.BREAKER;
         }

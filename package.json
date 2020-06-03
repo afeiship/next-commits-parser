@@ -1,6 +1,6 @@
 {
   "name": "@alo7i/next-commits-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Git commits parser.",
   "homepage": "https://github.com/afeiship/next-commits-parser",
   "author": {
@@ -38,6 +38,7 @@
     "@alo7i/next-git-log": "^1.0.1",
     "@atomkits/stub-value": "^1.0.0",
     "@feizheng/next-group-by": "^1.1.0",
+    "@feizheng/next-includes-multi": "^1.0.0",
     "@feizheng/next-js-core2": "^2.5.0"
   },
   "publishConfig": {
