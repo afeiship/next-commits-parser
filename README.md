@@ -3,12 +3,12 @@
 
 ## installation
 ```bash
-npm install -S @alo7i/next-commits-parser
+npm install -S @feizheng/next-commits-parser
 ```
 
 ## usage
 ```js
-import '@alo7i/next-commits-parser';
+import '@feizheng/next-commits-parser';
 
 //DOCS here!
 ```

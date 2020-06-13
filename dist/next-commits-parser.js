@@ -1,9 +1,9 @@
 /*!
- * name: @alo7i/next-commits-parser
+ * name: @feizheng/next-commits-parser
  * description: Git commits parser.
  * homepage: https://github.com/afeiship/next-commits-parser
- * version: 1.0.2
- * date: 2020-06-03T10:10:19.762Z
+ * version: 1.0.0
+ * date: 2020-06-13T01:55:33.322Z
  * license: MIT
  */
 
