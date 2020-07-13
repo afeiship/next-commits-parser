@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-commits-parser",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Git commits parser.",
   "homepage": "https://github.com/afeiship/next-commits-parser",
   "author": {
@@ -26,7 +26,6 @@
     "gulp-load-plugins": "^2.0.3",
     "gulp-rename": "^2.0.0",
     "gulp-size": "^3.0.0",
-    "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
     "jest": "^26.1.0",
     "prettier": "^2.0.5",

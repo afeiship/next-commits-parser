@@ -2,8 +2,8 @@
  * name: @feizheng/next-commits-parser
  * description: Git commits parser.
  * homepage: https://github.com/afeiship/next-commits-parser
- * version: 1.1.0
- * date: 2020-07-13T08:41:26.255Z
+ * version: 1.1.2
+ * date: 2020-07-13T08:46:58.021Z
  * license: MIT
  */
 
@@ -55,5 +55,3 @@
     module.exports = nx.commitsParser;
   }
 })();
-
-//# sourceMappingURL=next-commits-parser.js.map
