@@ -2,8 +2,8 @@
  * name: @feizheng/next-commits-parser
  * description: Git commits parser.
  * homepage: https://github.com/afeiship/next-commits-parser
- * version: 1.0.0
- * date: 2020-06-13T01:55:33.322Z
+ * version: 1.1.0
+ * date: 2020-07-13T08:41:26.255Z
  * license: MIT
  */
 
@@ -12,7 +12,6 @@
   var nx = global.nx || require('@feizheng/next-js-core2');
   var groupBy = require('@feizheng/next-group-by');
   var includesMulti = require('@feizheng/next-includes-multi');
-  var stubValue = require('@atomkits/stub-value');
 
   var DEFAULT_OPTIONS = {
     text: '',
@@ -27,7 +26,7 @@
       "chore",
       "revert"
     ],
-    template: stubValue
+    template: nx.stubValue
   }
 
   nx.commitsParser = function (inOptions) {

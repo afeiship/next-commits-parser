@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-commits-parser",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Git commits parser.",
   "homepage": "https://github.com/afeiship/next-commits-parser",
   "author": {
@@ -28,18 +28,17 @@
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "jest": "^26.0.1",
+    "jest": "^26.1.0",
     "prettier": "^2.0.5",
     "uglify-save-license": "^0.4.1",
-    "uglify-js": "3.9.4",
-    "yargs": "^15.3.1"
+    "uglify-js": "3.10.0",
+    "yargs": "^15.4.1"
   },
   "dependencies": {
-    "@atomkits/stub-value": "^1.0.0",
-    "@feizheng/next-git-log": "^1.0.0",
-    "@feizheng/next-group-by": "^1.1.0",
-    "@feizheng/next-includes-multi": "^1.0.0",
-    "@feizheng/next-js-core2": "^2.5.0"
+    "@feizheng/next-git-log": "^1.1.1",
+    "@feizheng/next-group-by": "^1.2.0",
+    "@feizheng/next-includes-multi": "^1.0.2",
+    "@feizheng/next-js-core2": "^2.6.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

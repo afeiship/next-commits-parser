@@ -3,7 +3,6 @@
   var nx = global.nx || require('@feizheng/next-js-core2');
   var groupBy = require('@feizheng/next-group-by');
   var includesMulti = require('@feizheng/next-includes-multi');
-  var stubValue = require('@atomkits/stub-value');
 
   var DEFAULT_OPTIONS = {
     text: '',
@@ -18,7 +17,7 @@
       "chore",
       "revert"
     ],
-    template: stubValue
+    template: nx.stubValue
   }
 
   nx.commitsParser = function (inOptions) {
