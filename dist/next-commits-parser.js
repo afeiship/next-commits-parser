@@ -3,7 +3,7 @@
  * description: Git commits parser.
  * homepage: https://github.com/afeiship/next-commits-parser
  * version: 1.1.2
- * date: 2020-07-13T08:46:58.021Z
+ * date: 2020-08-26T12:57:15.862Z
  * license: MIT
  */
 
