@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-commits-parser",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Git commits parser.",
   "homepage": "https://github.com/afeiship/next-commits-parser",
   "author": {
