@@ -40,5 +40,13 @@
   "dependencies": {
     "@jswork/next-group-by": "^1.0.0",
     "@jswork/next-includes-multi": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "next",
+    "commit",
+    "parser",
+    "git",
+    "log",
+    "parse"
+  ]
 }
